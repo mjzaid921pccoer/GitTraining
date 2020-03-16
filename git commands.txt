@@ -1,0 +1,31 @@
+:installation
+>>sudo apt install git-install
+>>sudo apt update
+>>git -- version
+>>git config --global user.name "jaid"
+>>git config --global user.email mjzaid921.pccoer@gmail.com
+>>git config --list
+
+:basic commands
+new folder Foldername
+cmd cd
+>>git init
+>>git status
+>>git add <filename> or .
+>>git commit -m "commit msg1"
+>>git log --oneline
+>>git status
+>>git commit -m "commit msg2"
+>>git log
+>>git checkout <commit id> <file>
+>>git reset HEAD <filename>
+
+:online repository
+<repositorylink>
+>>git remote add origin <repositorylink>
+>>git push -u origin master
+
+:fetching online repository content to local repository
+>>mkdir Foldername
+>>cd Foldername
+>>git clone <repositorylink>
